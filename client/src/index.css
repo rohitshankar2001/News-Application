@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  color: white;
+  margin: 0px 0;
+  font-family: "Roboto";
+
+}
+body{
+  background-color: #101010;
+
+}
+
+.navBar{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  padding: 30px;
+  
+}
+
+.topPanel{
+  margin: 0px;
+  border-radius: 0px;
+  width: 100%; 
+  height: 90px; 
+  background-color: rgb(30, 30, 30); 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.panel {
+  margin: auto;
+  border-radius: 10px;
+  width: 600px; 
+  height: 300px; 
+  background-color: rgb(30, 30, 30); 
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+}
+
+.panel img {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px; 
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.panelImageDescription{
+  display: flex;
+}
+
+.panelImageDescription p {
+  margin-top: 20px;
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+}
+
+
+.chatInput{
+  position: fixed;
+  bottom: 30px;
+  right : 13px;
+  border-radius: 5px; 
+
+}
+
+.chatScreen{
+  position: fixed;
+  border-radius: 5px; 
+
+  border: 2px solid;
+  width: 220px; 
+  height: 300px;
+  bottom: 60px;
+  right : 15px;
+  background-color :rgb(30, 30, 30); 
+  overflow: auto;
+  resize: none;
+}
+
+
+input[type="text"] {
+  background-color :rgb(30, 30, 30); 
+
+}
